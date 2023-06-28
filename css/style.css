@@ -6,6 +6,7 @@
     /* margin: auto; */
 }
 
+/*Navigation Menu*/
 .dropdown-toggle::after {
     display: none !important;
 
@@ -19,9 +20,11 @@
     padding-left: 13em;
 }
 
-
+/*Banner*/
 .banner-text {
     color: #858A8F;
+    text-align: center !important;
+    padding-top: 35px;
 }
 
 .help-section {
@@ -35,8 +38,11 @@
     line-height: 0;
 }
 
+/*Card Section*/
+
 #card-section {
     margin-top: 57px;
+    margin-bottom: 65px;
 }
 
 #card-section h5 {
@@ -44,25 +50,18 @@
     font-weight: 700;
     line-height: 34px;
     letter-spacing: 0px;
-    /* text-align: left; */
-
-
 }
 
 .card-child {
-    /* padding: 41px 31px; */
     margin-bottom: 50px;
     text-align: left;
 }
-
 
 .card-text p {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0px;
-    /* text-align: left; */
-
 }
 
 .card-image {
@@ -76,11 +75,10 @@
 
 .btn-color {
     color: #397EFF;
-
 }
 
 .arrow-img {
-    width: 19.86px;
+    width: 32.86px;
     height: 19.47px;
 }
 
@@ -89,17 +87,40 @@
     text-align: right;
 }
 
-.form-section {
-    margin-top: 124px;
+/*Form Section*/
+
+h1 {
+    font-weight: 700!important;
+    
 }
 
+.form-grid {
+    margin-top: 52px;
+}
+.form-section {
+    margin-top: 90px;
+}
 
+.form-gap {
+    padding-bottom: 23px;
+}
 
-.forms-s::placeholder{
+.forms-s::placeholder {
 opacity: 0.5 !important;
 }
 
+.sub-btn {
+    margin-top: 43px;
+    margin-left: 482px;
+    width: 286px;
+    height: 66px;
+}
 /* footer */
+
+.footer{
+    margin-top: 141px;
+}
+
 .footer-subtitle {
     padding-left: 2rem;
     font-weight: bold;
@@ -138,10 +159,6 @@ opacity: 0.5 !important;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
     }
 
-}
-
-.sub-btn {
-    margin-left: 550px;
 }
 
 .footer-list li{
